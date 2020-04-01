@@ -21,6 +21,11 @@ test:
   database: db/test.sqlite3
 
 production:
-  <<: *default
   adapter: mysql2
-  database: db/production.sqlite3
+  pool: 5
+  timeout: 5000
+  username: xef2rulzfdmgloqf
+  password: i3a0c8zw5jt8yy94
+  host: e7qyahb3d90mletd.chr7pe7iynqr.eu-west-1.rds.amazonaws.com
+  port: 3306
+  database: gof3dif8e75eyct0
